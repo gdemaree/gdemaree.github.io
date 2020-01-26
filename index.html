@@ -7,9 +7,9 @@
 
     <title>centered</title>
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- Leave those next 4 lines if you care about users using IE8 -->
@@ -21,39 +21,35 @@
   <body>
     <div class="container">
 
-      <div class="row content align-content-center">
-        <div class="col-2 pr-0">
-              <div class="d-flex flex-column sidebar">
-                <div class="row head">
-                  <div class="col">
-                    hi
-                  </div>
-              </div>
-                <div class="row">
-                  <div class="col">
-                    hi
-                  </div>
-                  <div class="w-100"></div>
-                  <div class="col">
-                    hi
-                  </div>
-                </div>
-          </div>
+      <div class="row content bordered">
+        <div class="d-flex flex-column col p-0 sidebar">
+                
         </div>
-        <div class="col pl-0">
-          <div class="d-flex flex-column wrapper">
-              <div class="container text-center" id="header">
-                <div class="row h-100">
-                  <div class="col my-auto col-7">
+        <div class="col col-10 p-0 d-flex flex-column wrapper">
+              <div class="d-flex flex-column align-items-center justify-content-end" id="header">
+                <div class="row m-0 my-auto">
+                  <div class="col p-0">
                     <h1 class="p-0 m-0">Garrett's Homepage</h1>
                   </div>
-                  <div class="col">
-
-                  </div>
+                </div>
+                <div class="row m-0 w-100">
+                  <nav class="navbar w-100">
+                    <ul class="navbar-nav w-100 justify-content-between">
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Link 1</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Link 2</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Link 3</a>
+                      </li>
+                    </ul>
+                  </nav>
                 </div>
               </div>
-            <div class="container flex-fill text-center" id="rcontent">
-              <div class="row h-100">
+            <div class="flex-fill text-center" id="rcontent">
+              <div class="row m-0">
                 <div class="col my-auto col-7">
                   <h1 class="p-0 m-0">Garrett's Homepage</h1>
                 </div>
@@ -63,8 +59,8 @@
               </div>
 
             </div>
-            <div class="container text-center" id="footer">
-              <div class="row h-100 w-100">
+            <div class="text-center" id="footer">
+              <div class="row h-100 m-0">
                 <div class="col my-auto">
                   <p class="p-0 m-0">hi</p>
                 </div>
@@ -76,13 +72,16 @@
                 </div>
               </div>
 
-            </div>
+          
+          </div>
+        </div>
+        <div class="d-flex flex-column col p-0 sidebar">
+               
           </div>
         </div>
       </div>
-    </div>
     <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
   </body>
 </html>
